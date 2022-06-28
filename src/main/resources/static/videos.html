@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- Esta es mi primera pagina html-->
+<html lang="es"
+      xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+
+        <title>TechShop</title>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Pagina index del sitio web TechShop"/>
+        <meta name="keywords" content="html5, css3, semantica"/>
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body> 
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link">TechShop</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="index.html">Home</a></li>
+                     <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="audios.html">Audios</a></li>
+                     <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="iframe.html.html">Enlaces</a></li>
+                     <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="registro.html">Registro</a></li>
+                </ul>  
+            </nav>
+        </header>
+        <aside>
+            <h2>Producto del mes</h2>
+            <p id="prueba">Este es un primer parrafo de una pagina web</p>
+        </aside>
+        <section>
+            <h2>Ejemplos de Videos</h2>
+            <article>
+                <header>
+                    <h3>Torpedo</h3>
+                </header>
+                <figure>
+                    <video width="320" height="240" controls muted poster="torpedo.jpg"><!-- controls autoplay es para que el video se reproduzca automaticamente sin necesidad de que lo inicalice el usuario-->
+                        <source src="torpedo.mp4" type="video/mp4">
+                            Su explorador no soporta este tipo de videos <code>video</code> 
+                    </video>
+                </figure>
+            </article>
+        </section>
+        <footer>
+            Derechos Reservados 2022 <address>Tel: 506 8899-5544</address>
+        </footer>
+
+    </body>
+</html>
